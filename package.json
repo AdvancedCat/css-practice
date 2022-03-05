@@ -1,0 +1,14 @@
+{
+  "name": "css-practice",
+  "version": "0.0.0",
+  "description": "Some demos for practise css skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"css\"]"
+  ],
+  "author": "advancedcat",
+  "license": "MIT"
+}
