@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child child-A">A</div>
+        <div class="child">B</div>
+        <div class="child">C</div>
+        <div class="child">D</div>
+        <div class="child">E</div>
+        <div class="child">F</div>
+    </div>
+    <style>
+        .container{
+            display: grid;
+            grid-template-rows: repeat(3 1fr);
+            grid-template-columns: repeat(3 1fr);
+            gap: 5px;
+            grid-template-areas: 'a a d' 'b b e' 'c c f';
+            justify-items: center;
+        }
+        .child-A{
+            grid-area: a;
+        }
+
+    </style>
+</body>
+</html>
